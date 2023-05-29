@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700;900&display=swap");
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.milioners_block {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+  padding-top: 50px;
+}
+
+body {
+    background-color: #FFFFFF;
+    color: #000000;
+    font-family: monospace;
+    transition: .5s all;
+  }
+  
+  body.dark-mode {
+    background-color: #000000;
+    color: #FFFFFF;
+  }
+  
+  header {
+    background-color: #CCCCCC;
+    color: #000000;
+  }
+  
+  header.dark-mode {
+    background-color: #333333;
+    color: #FFFFFF;
+  }
+  
+  button {
+    background-color: #0077FF;
+    color: #FFFFFF;
+  }
+  
+  button.dark-mode {
+    background-color: #FFFFFF;
+    color: #000000;
+  }
